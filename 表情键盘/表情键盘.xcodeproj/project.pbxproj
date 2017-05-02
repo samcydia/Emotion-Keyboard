@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D237601C885DDE005CCD39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2375F1C885DDE005CCD39 /* main.m */; };
+		C2D237631C885DDF005CCD39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237621C885DDF005CCD39 /* AppDelegate.m */; };
+		C2D237661C885DDF005CCD39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237651C885DDF005CCD39 /* ViewController.m */; };
+		C2D237691C885DDF005CCD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D237671C885DDF005CCD39 /* Main.storyboard */; };
+		C2D2376B1C885DDF005CCD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D2376A1C885DDF005CCD39 /* Assets.xcassets */; };
+		C2D2376E1C885DDF005CCD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D2376C1C885DDF005CCD39 /* LaunchScreen.storyboard */; };
+		C2D237781C885EE2005CCD39 /* SAMEmoticonTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237771C885EE2005CCD39 /* SAMEmoticonTextView.m */; };
+		C2D2377E1C886AD8005CCD39 /* SAMEmoticonInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2377D1C886AD8005CCD39 /* SAMEmoticonInputView.m */; };
+		C2D237851C886C66005CCD39 /* SAMEmoticonToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237841C886C66005CCD39 /* SAMEmoticonToolbar.m */; };
+		C2D237871C886DBA005CCD39 /* SAMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2D237861C886DBA005CCD39 /* SAMEmoticon.bundle */; };
+		C2D2378D1C886E6C005CCD39 /* NSBundle+SAMEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2378C1C886E6C005CCD39 /* NSBundle+SAMEmoticon.m */; };
+		C2D237901C88731A005CCD39 /* UIImage+SAMEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2378F1C88731A005CCD39 /* UIImage+SAMEmoticon.m */; };
+		C2D237951C887C97005CCD39 /* SAMEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237941C887C97005CCD39 /* SAMEmoticon.m */; };
+		C2D237991C887D03005CCD39 /* SAMEmoticonPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237981C887D03005CCD39 /* SAMEmoticonPackage.m */; };
+		C2D2379C1C887E10005CCD39 /* SAMEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2379B1C887E10005CCD39 /* SAMEmoticonManager.m */; };
+		C2D237A31C888CED005CCD39 /* SAMEmoticonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237A21C888CED005CCD39 /* SAMEmoticonCell.m */; };
+		C2D237A61C889976005CCD39 /* NSString+SAMEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D237A51C889976005CCD39 /* NSString+SAMEmoji.m */; };
+		C2F68EBD1C89F2A500742258 /* SAMEmoticonTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F68EBC1C89F2A500742258 /* SAMEmoticonTipView.m */; };
+		C2F68EC01C89F87600742258 /* SAMEmoticonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F68EBF1C89F87600742258 /* SAMEmoticonButton.m */; };
+		C2F68EC31C8A101500742258 /* SAMEmoticonAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F68EC21C8A101500742258 /* SAMEmoticonAttachment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2D2375B1C885DDE005CCD39 /* 表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D2375F1C885DDE005CCD39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2D237611C885DDE005CCD39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2D237621C885DDF005CCD39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2D237641C885DDF005CCD39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2D237651C885DDF005CCD39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2D237681C885DDF005CCD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2D2376A1C885DDF005CCD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D2376D1C885DDF005CCD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2D2376F1C885DDF005CCD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D237761C885EE2005CCD39 /* SAMEmoticonTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonTextView.h; sourceTree = "<group>"; };
+		C2D237771C885EE2005CCD39 /* SAMEmoticonTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonTextView.m; sourceTree = "<group>"; };
+		C2D2377C1C886AD8005CCD39 /* SAMEmoticonInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonInputView.h; sourceTree = "<group>"; };
+		C2D2377D1C886AD8005CCD39 /* SAMEmoticonInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonInputView.m; sourceTree = "<group>"; };
+		C2D237831C886C66005CCD39 /* SAMEmoticonToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonToolbar.h; sourceTree = "<group>"; };
+		C2D237841C886C66005CCD39 /* SAMEmoticonToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonToolbar.m; sourceTree = "<group>"; };
+		C2D237861C886DBA005CCD39 /* SAMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAMEmoticon.bundle; sourceTree = "<group>"; };
+		C2D2378B1C886E6C005CCD39 /* NSBundle+SAMEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SAMEmoticon.h"; sourceTree = "<group>"; };
+		C2D2378C1C886E6C005CCD39 /* NSBundle+SAMEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SAMEmoticon.m"; sourceTree = "<group>"; };
+		C2D2378E1C88731A005CCD39 /* UIImage+SAMEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SAMEmoticon.h"; sourceTree = "<group>"; };
+		C2D2378F1C88731A005CCD39 /* UIImage+SAMEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SAMEmoticon.m"; sourceTree = "<group>"; };
+		C2D237931C887C97005CCD39 /* SAMEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticon.h; sourceTree = "<group>"; };
+		C2D237941C887C97005CCD39 /* SAMEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticon.m; sourceTree = "<group>"; };
+		C2D237971C887D03005CCD39 /* SAMEmoticonPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonPackage.h; sourceTree = "<group>"; };
+		C2D237981C887D03005CCD39 /* SAMEmoticonPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonPackage.m; sourceTree = "<group>"; };
+		C2D2379A1C887E10005CCD39 /* SAMEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonManager.h; sourceTree = "<group>"; };
+		C2D2379B1C887E10005CCD39 /* SAMEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonManager.m; sourceTree = "<group>"; };
+		C2D237A11C888CED005CCD39 /* SAMEmoticonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonCell.h; sourceTree = "<group>"; };
+		C2D237A21C888CED005CCD39 /* SAMEmoticonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonCell.m; sourceTree = "<group>"; };
+		C2D237A41C889976005CCD39 /* NSString+SAMEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SAMEmoji.h"; sourceTree = "<group>"; };
+		C2D237A51C889976005CCD39 /* NSString+SAMEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SAMEmoji.m"; sourceTree = "<group>"; };
+		C2F68EBB1C89F2A500742258 /* SAMEmoticonTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonTipView.h; sourceTree = "<group>"; };
+		C2F68EBC1C89F2A500742258 /* SAMEmoticonTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonTipView.m; sourceTree = "<group>"; };
+		C2F68EBE1C89F87600742258 /* SAMEmoticonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonButton.h; sourceTree = "<group>"; };
+		C2F68EBF1C89F87600742258 /* SAMEmoticonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonButton.m; sourceTree = "<group>"; };
+		C2F68EC11C8A101500742258 /* SAMEmoticonAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMEmoticonAttachment.h; sourceTree = "<group>"; };
+		C2F68EC21C8A101500742258 /* SAMEmoticonAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMEmoticonAttachment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D237581C885DDE005CCD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D237521C885DDE005CCD39 = {
+			isa = PBXGroup;
+			children = (
+				C2D2375D1C885DDE005CCD39 /* 表情键盘 */,
+				C2D2375C1C885DDE005CCD39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D2375C1C885DDE005CCD39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2375B1C885DDE005CCD39 /* 表情键盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D2375D1C885DDE005CCD39 /* 表情键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				C2D237751C885EA4005CCD39 /* Emoticon */,
+				C2D237611C885DDE005CCD39 /* AppDelegate.h */,
+				C2D237621C885DDF005CCD39 /* AppDelegate.m */,
+				C2D237641C885DDF005CCD39 /* ViewController.h */,
+				C2D237651C885DDF005CCD39 /* ViewController.m */,
+				C2D237671C885DDF005CCD39 /* Main.storyboard */,
+				C2D2376A1C885DDF005CCD39 /* Assets.xcassets */,
+				C2D2376C1C885DDF005CCD39 /* LaunchScreen.storyboard */,
+				C2D2376F1C885DDF005CCD39 /* Info.plist */,
+				C2D2375E1C885DDE005CCD39 /* Supporting Files */,
+			);
+			path = "表情键盘";
+			sourceTree = "<group>";
+		};
+		C2D2375E1C885DDE005CCD39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2375F1C885DDE005CCD39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2D237751C885EA4005CCD39 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				C2D237861C886DBA005CCD39 /* SAMEmoticon.bundle */,
+				C2D237761C885EE2005CCD39 /* SAMEmoticonTextView.h */,
+				C2D237771C885EE2005CCD39 /* SAMEmoticonTextView.m */,
+				C2D2377C1C886AD8005CCD39 /* SAMEmoticonInputView.h */,
+				C2D2377D1C886AD8005CCD39 /* SAMEmoticonInputView.m */,
+				C2F68EC11C8A101500742258 /* SAMEmoticonAttachment.h */,
+				C2F68EC21C8A101500742258 /* SAMEmoticonAttachment.m */,
+				C2D237921C887941005CCD39 /* Views */,
+				C2D237961C887C9B005CCD39 /* Model */,
+				C2D237911C887937005CCD39 /* Categories */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		C2D237911C887937005CCD39 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2378B1C886E6C005CCD39 /* NSBundle+SAMEmoticon.h */,
+				C2D2378C1C886E6C005CCD39 /* NSBundle+SAMEmoticon.m */,
+				C2D2378E1C88731A005CCD39 /* UIImage+SAMEmoticon.h */,
+				C2D2378F1C88731A005CCD39 /* UIImage+SAMEmoticon.m */,
+				C2D237A41C889976005CCD39 /* NSString+SAMEmoji.h */,
+				C2D237A51C889976005CCD39 /* NSString+SAMEmoji.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C2D237921C887941005CCD39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2D237831C886C66005CCD39 /* SAMEmoticonToolbar.h */,
+				C2D237841C886C66005CCD39 /* SAMEmoticonToolbar.m */,
+				C2D237A11C888CED005CCD39 /* SAMEmoticonCell.h */,
+				C2D237A21C888CED005CCD39 /* SAMEmoticonCell.m */,
+				C2F68EBB1C89F2A500742258 /* SAMEmoticonTipView.h */,
+				C2F68EBC1C89F2A500742258 /* SAMEmoticonTipView.m */,
+				C2F68EBE1C89F87600742258 /* SAMEmoticonButton.h */,
+				C2F68EBF1C89F87600742258 /* SAMEmoticonButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C2D237961C887C9B005CCD39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2379A1C887E10005CCD39 /* SAMEmoticonManager.h */,
+				C2D2379B1C887E10005CCD39 /* SAMEmoticonManager.m */,
+				C2D237971C887D03005CCD39 /* SAMEmoticonPackage.h */,
+				C2D237981C887D03005CCD39 /* SAMEmoticonPackage.m */,
+				C2D237931C887C97005CCD39 /* SAMEmoticon.h */,
+				C2D237941C887C97005CCD39 /* SAMEmoticon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D2375A1C885DDE005CCD39 /* 表情键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D237721C885DDF005CCD39 /* Build configuration list for PBXNativeTarget "表情键盘" */;
+			buildPhases = (
+				C2D237571C885DDE005CCD39 /* Sources */,
+				C2D237581C885DDE005CCD39 /* Frameworks */,
+				C2D237591C885DDE005CCD39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表情键盘";
+			productName = "表情键盘";
+			productReference = C2D2375B1C885DDE005CCD39 /* 表情键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D237531C885DDE005CCD39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					C2D2375A1C885DDE005CCD39 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C2D237561C885DDE005CCD39 /* Build configuration list for PBXProject "表情键盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2D237521C885DDE005CCD39;
+			productRefGroup = C2D2375C1C885DDE005CCD39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D2375A1C885DDE005CCD39 /* 表情键盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D237591C885DDE005CCD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D237871C886DBA005CCD39 /* SAMEmoticon.bundle in Resources */,
+				C2D2376E1C885DDF005CCD39 /* LaunchScreen.storyboard in Resources */,
+				C2D2376B1C885DDF005CCD39 /* Assets.xcassets in Resources */,
+				C2D237691C885DDF005CCD39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D237571C885DDE005CCD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D237A31C888CED005CCD39 /* SAMEmoticonCell.m in Sources */,
+				C2D237661C885DDF005CCD39 /* ViewController.m in Sources */,
+				C2F68EC01C89F87600742258 /* SAMEmoticonButton.m in Sources */,
+				C2D2378D1C886E6C005CCD39 /* NSBundle+SAMEmoticon.m in Sources */,
+				C2D237A61C889976005CCD39 /* NSString+SAMEmoji.m in Sources */,
+				C2D237631C885DDF005CCD39 /* AppDelegate.m in Sources */,
+				C2D237781C885EE2005CCD39 /* SAMEmoticonTextView.m in Sources */,
+				C2D237601C885DDE005CCD39 /* main.m in Sources */,
+				C2D237851C886C66005CCD39 /* SAMEmoticonToolbar.m in Sources */,
+				C2D237901C88731A005CCD39 /* UIImage+SAMEmoticon.m in Sources */,
+				C2F68EBD1C89F2A500742258 /* SAMEmoticonTipView.m in Sources */,
+				C2F68EC31C8A101500742258 /* SAMEmoticonAttachment.m in Sources */,
+				C2D237951C887C97005CCD39 /* SAMEmoticon.m in Sources */,
+				C2D2379C1C887E10005CCD39 /* SAMEmoticonManager.m in Sources */,
+				C2D2377E1C886AD8005CCD39 /* SAMEmoticonInputView.m in Sources */,
+				C2D237991C887D03005CCD39 /* SAMEmoticonPackage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2D237671C885DDF005CCD39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D237681C885DDF005CCD39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2D2376C1C885DDF005CCD39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D2376D1C885DDF005CCD39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D237701C885DDF005CCD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2D237711C885DDF005CCD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2D237731C885DDF005CCD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sam.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2D237741C885DDF005CCD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sam.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D237561C885DDE005CCD39 /* Build configuration list for PBXProject "表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D237701C885DDF005CCD39 /* Debug */,
+				C2D237711C885DDF005CCD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D237721C885DDF005CCD39 /* Build configuration list for PBXNativeTarget "表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D237731C885DDF005CCD39 /* Debug */,
+				C2D237741C885DDF005CCD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D237531C885DDE005CCD39 /* Project object */;
+}
